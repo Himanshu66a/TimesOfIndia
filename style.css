@@ -271,7 +271,7 @@ footer li:hover{
 .logo{
     margin-top: 0;
     margin-bottom: 0;
-    height: 10vh;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,16 +303,6 @@ footer li:hover{
     }
   }
 
-  @media  (max-width: 100px){
-    body {
-        background-color: lightgreen;
-      }
-    .search{
-        padding-left: 0%;
-    }
-  
-   
-}
 @media  (max-width: 700px){
     .latest-news{
         flex-direction: column-reverse;
@@ -330,5 +320,9 @@ footer li:hover{
     footer{
         flex-direction: column;
 
+    }
+    
+     .news-section-box{
+        width: 100%;
     }
 }
